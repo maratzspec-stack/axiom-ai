@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Axiom AI</title>
+  <meta charset="UTF-8" />
+</head>
+
+<body style="background:#0a0a0a; color:white; font-family:sans-serif; padding:30px;">
+
+  <h1>🚀 Axiom AI</h1>
+  <p>Just tell what you want. Axiom does the rest.</p>
+
+  <!-- INPUT -->
+  <input 
+    id="input" 
+    placeholder="Describe your task..." 
+    style="width:400px; padding:12px; border-radius:8px; border:none;"
+  />
+
+  <button 
+    onclick="run()" 
+    style="padding:12px; margin-left:10px; border-radius:8px; cursor:pointer;"
+  >
+    Run
+  </button>
+
+  <!-- STATUS -->
+  <p id="loading" style="margin-top:20px; color:#aaa;"></p>
+
+  <!-- OUTPUT -->
+  <pre id="output" style="margin-top:20px; background:#111; padding:15px; border-radius:10px;"></pre>
+
+  <!-- SCRIPT -->
+  <script src="app.js"></script>
+
+</body>
+</html>
